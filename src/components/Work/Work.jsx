@@ -102,7 +102,7 @@ const Work = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                   <a
                     href={selectedProject.github}
                     target="_blank"
@@ -119,7 +119,7 @@ const Work = () => {
                   >
                     View Live
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

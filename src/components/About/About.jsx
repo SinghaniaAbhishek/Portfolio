@@ -18,16 +18,14 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Abhishek Singhania
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Developer',
-                'App Developer',
-                'UI/UX Designer',
+                'Frontend Developer',
                 'Coder',
               ]}
               speed={100}
@@ -41,15 +39,14 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            A Computer Science & Engineering student with a strong interest in web development, databases, and emerging technologies.
+I enjoy working with MERN stack, React, and Java Spring Boot to bring ideas to life.
+Beyond coding, I like exploring design, problem-solving challenges, and the latest tech trends.
+My aim is to build applications that are innovative, scalable, and user-focused.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1M689j0DsicGsFWA83Mau30fdd2Bexvaz/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -75,7 +72,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Abhishek Singhania"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
