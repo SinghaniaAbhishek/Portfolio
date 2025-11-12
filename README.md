@@ -28,7 +28,7 @@ Use this repo as a starting point to showcase your own projects. The code is sma
 
 Add your live demo URL here (if deployed). Example:
 
-Live: https://your-username.github.io/your-repo or https://your-site.vercel.app
+Live: https://singhania-abhishek-portfolio.vercel.app
 
 ## Features
 
@@ -139,26 +139,6 @@ Keep changes focused and include screenshots if you modify UI.
 
 ## Contact
 
-- Email: your-email@example.com
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-profile
-
-Replace the placeholders above with your real contact info.
-
-## Deployment
-
-You can deploy this app easily with Vercel, Netlify, or GitHub Pages. For Vercel, connect your repo and it will detect the Vite app automatically. The build command is `npm run build` and the output directory is `dist`.
-
-## License
-
-This project is provided under the MIT License — replace with your preferred license if needed.
-
----
-
-If you'd like, I can also:
-
-- add a screenshot or demo GIF to the README
-- add CI/CD or a deployment step (Vercel configuration)
-- include badges (build, license, live site)
-
-Tell me which of those you'd like and I will add them.
+- Email: abhisheksinghania613@gmail.com
+- GitHub: https://github.com/SinghaniaAbhishek
+- LinkedIn: https://www.linkedin.com/in/abhishek-singhania-b505a2301
