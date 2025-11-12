@@ -1,59 +1,164 @@
-# 🌐 Animated Portfolio Website
+# Abhishek Singhania — Portfolio
 
-A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. This project gained **27K+ views** on [YouTube]([https://youtube.com/your-video-link](https://youtu.be/ypSc8HEurGQ?si=yI3GJCye3sAKoemW)) – loved by developers and students for its modern design and clean code.
+Welcome to my personal portfolio. This project showcases my web development work, skills, experience, and projects built using modern web tools (Vite, React, Tailwind CSS).
 
-## 🚀 Live Demo
+## Table of Contents
 
-🔗 [View Portfolio Live](https://tarunkaushik.vercel.app/)
+- [About](#about)
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+	- [Prerequisites](#prerequisites)
+	- [Install](#install)
+	- [Run Locally](#run-locally)
+	- [Build](#build)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
 
-## 🛠️ Tech Stack
+## About
 
-- ⚛️ React.js
-- 🎨 Tailwind CSS
-- 💾 Vercel(for deployment)
+This repository contains my personal portfolio website. It is built with React (JSX), Vite, and Tailwind CSS. The site includes sections for About, Skills, Experience, Work/Projects, Education, and Contact.
 
-## 📁 Features
+Use this repo as a starting point to showcase your own projects. The code is small and modular so it’s easy to customize.
 
-- Responsive design for all screen sizes 📱💻
-- Smooth scroll and animation effects ✨
-- Clean and modular React components 🧩
-- Easy to customize with Tailwind utility classes 🎯
-- Professional sections: About, Skills, Projects, Contact, etc. 👨‍💻
+## Live Demo
 
+Add your live demo URL here (if deployed). Example:
 
-## 🧑‍💻 How to Use
+Live: https://your-username.github.io/your-repo or https://your-site.vercel.app
 
-### 1. Clone the Repo
+## Features
 
-```bash
-git clone [https://github.com/codingmastr/Tarun-s-Portfolio.git]
-cd your-repo-name
-````
+- Clean, responsive single-page layout
+- Sections: About, Skills, Experience, Education, Work, Contact
+- Uses Tailwind CSS for utility-first styling
+- Fast dev server via Vite
 
-### 2. Install Dependencies
+## Tech Stack
 
-```bash
+- React (JSX)
+- Vite (dev tooling)
+- Tailwind CSS
+- PostCSS
+- (Optional) Deployed with Vercel or GitHub Pages
+
+## Getting Started
+
+These instructions will help you run the project locally for development and testing.
+
+### Prerequisites
+
+- Node.js (v14+ recommended)
+- npm, Yarn, or pnpm (examples below use npm)
+
+### Install
+
+Open a terminal in the project root and run:
+
+```powershell
 npm install
 ```
 
-### 3. Run the App
+If you use yarn or pnpm:
 
-```bash
-npm start
+```powershell
+# yarn
+yarn
+
+# pnpm
+pnpm install
 ```
 
-### 4. Build for Production
+### Run Locally
 
-```bash
+Start the development server:
+
+```powershell
+npm run dev
+```
+
+This starts Vite's dev server (hot reload). Open the URL shown in the terminal (usually http://localhost:5173).
+
+### Build for Production
+
+Create a production build:
+
+```powershell
 npm run build
 ```
 
-## 📹 YouTube Tutorial
+Preview the production build locally (optional):
 
-Watch the full build on YouTube:
-📺 [React Portfolio Website - 27K+ Views](https://youtu.be/ypSc8HEurGQ?si=winjJhc9qzNrCqLD)
+```powershell
+npm run preview
+```
 
-## 🌟 Credits
+## Project Structure
 
-This project was created with ❤️ by [Tarun Kaushik](https://tarunkaushik.vercel.app/).
-If you like it, feel free to ⭐ this repository and share!
+Key files and folders:
+
+- `index.html` — App entry HTML
+- `package.json` — Scripts & dependencies
+- `vite.config.js` — Vite configuration
+- `tailwind.config.js` / `postcss.config.js` — Tailwind/PostCSS
+- `src/` — Source code
+	- `main.jsx` — React entry point
+	- `App.jsx` — Root component
+	- `components/` — Reusable components (Navbar, Footer, sections)
+	- `assets/` — Images & logos
+- `public/` — Static assets
+
+Example structure (simplified):
+
+```
+Abhishek-Portfolio/
+├─ public/
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  ├─ App.jsx
+│  └─ main.jsx
+├─ index.html
+├─ package.json
+└─ vite.config.js
+```
+
+## Contributing
+
+Contributions are welcome. If you'd like to suggest improvements or add projects:
+
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/my-change`
+3. Commit your changes: `git commit -m "Add feature"`
+4. Push and open a Pull Request
+
+Keep changes focused and include screenshots if you modify UI.
+
+## Contact
+
+- Email: your-email@example.com
+- GitHub: https://github.com/your-username
+- LinkedIn: https://linkedin.com/in/your-profile
+
+Replace the placeholders above with your real contact info.
+
+## Deployment
+
+You can deploy this app easily with Vercel, Netlify, or GitHub Pages. For Vercel, connect your repo and it will detect the Vite app automatically. The build command is `npm run build` and the output directory is `dist`.
+
+## License
+
+This project is provided under the MIT License — replace with your preferred license if needed.
+
+---
+
+If you'd like, I can also:
+
+- add a screenshot or demo GIF to the README
+- add CI/CD or a deployment step (Vercel configuration)
+- include badges (build, license, live site)
+
+Tell me which of those you'd like and I will add them.

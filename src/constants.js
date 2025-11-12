@@ -84,7 +84,7 @@ export const SkillsInfo = [
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      //{ name: 'Firebase', logo: firebaseLogo },
+      { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
@@ -97,7 +97,7 @@ export const SkillsInfo = [
       { name: 'Python', logo: pythonLogo },
       //{ name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      //{ name: 'TypeScript', logo: typescriptLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -109,8 +109,8 @@ export const SkillsInfo = [
       //{ name: 'Postman', logo: postmanLogo },
       //{ name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      //{ name: 'Netlify', logo: netlifyLogo },
-      //{ name: 'Figma', logo: figmaLogo },
+      { name: 'Netlify', logo: netlifyLogo },
+      { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];
@@ -178,6 +178,7 @@ export const SkillsInfo = [
         "A React-based web application designed to simplify and elevate the wedding planning experience in India. Swayamvar is a platform tailored to the unique needs of Indian weddings, addressing the complexities and traditions of this special occasion. This project was inspired by the desire to create a more user-friendly and efficient platform for wedding , addressing the gaps in existing solutions.",
       image: swayamLogo,
       tags: ["React JS", "HTML", "CSS", "JavaScript","Node.js","Express","MongoDB"],
+      github: "https://github.com/SinghaniaAbhishek/Swayamvar_MERN",
     },
     {
       id: 3,
@@ -186,8 +187,8 @@ export const SkillsInfo = [
         "Recreated the Instagram experience with a custom frontend clone, focusing on performance, responsiveness, and user engagement, highlighting my proficiency in building fast and interactive web applications.",
       image: instaLogo,
       tags: ["html", "css", "javascript"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      github: "https://github.com/SinghaniaAbhishek/instaclone.git",
+      //webapp: "https://www.npmjs.com/package/cmtk-email-validator",
     },
     // {
     //   id: 4,
