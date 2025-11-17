@@ -39,9 +39,9 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             { icon: <FaFacebook />, link: "https://www.facebook.com/tarun.kaushik.3511041/" },
-            //{ icon: <FaTwitter />, link: "https://twitter.com/CodingMaster6?s=09" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/abhishek-singhania-b505a2301/" },
-            //{ icon: <FaInstagram />, link: "https://www.instagram.com/coding_.master/" },
+            { icon: <FaTwitter />, link: "https://x.com/Singhania_Abhi6" },
+            { icon: <FaLinkedin />, link: "www.linkedin.com/in/singhaniaabhishek13" },
+            { icon: <FaInstagram />, link: "https://www.instagram.com/_.abhishek._013?igsh=OHZzNzF5dnRjajJ6" },
             //{ icon: <FaYoutube />, link: "https://www.youtube.com/codingmasteryt" },
             
           ].map((item, index) => (
